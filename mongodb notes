@@ -18,5 +18,15 @@ if error "address 27017 in use occurs", set another port ->  mongod --dbpath /ho
 
 
 
+4) create testdb databse from the shell
+
+
+
+
+5) the shell must be running to accept nodejs request from the local server
+
+
+
+
 
 
