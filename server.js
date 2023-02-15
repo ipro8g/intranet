@@ -12,8 +12,8 @@ const url = 'mongodb://localhost:12345';
 
 const ObjectID = mongo.ObjectID;
 
-
-const hostname = '192.168.1.100';
+//machine host REAL ip goes here (not localhost)
+const hostname = 'xxx.xxx.x.xxx';
 
 const port = 3000;
 
