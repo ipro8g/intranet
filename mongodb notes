@@ -1,0 +1,22 @@
+1) create folder /home/devicename/data 
+
+here will be all information saved
+
+
+
+
+2) go to /bin/ and start mongod process -> mongod --dbpath /home/devicename/data
+
+if error "address 27017 in use occurs", set another port ->  mongod --dbpath /home/devicename/data --port 12345
+
+
+
+
+
+3) to start mongodb shell go to '/bin/' and type -> ./mongosh mongodb://127.0.0.1:12345
+
+
+
+
+
+
